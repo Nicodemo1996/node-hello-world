@@ -1,12 +1,24 @@
 {
-  "name": "node-hello-world",
+  "name": "hello-world",
   "version": "1.0.0",
   "description": "progetto Node.js",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "watch": "nodemon index.js"
   },
   "keywords": [],
   "author": "nicodemo",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nicodemo1996/node-hello-world.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Nicodemo1996/node-hello-world/issues"
+  },
+  "homepage": "https://github.com/Nicodemo1996/node-hello-world#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
 }
